@@ -1,0 +1,330 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/************** HEADER **************/
+
+#menu-Spa{
+    background: #A3A656;
+    height: 70px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#menu-Spa div {
+    display: inline-flex;
+    height: 70px;
+}
+
+#menu-Spa div ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 0px 0px;
+}
+
+#menu-Spa div ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#menu-Spa div ul li a:hover{
+    color: #FFFF00;
+}
+
+#menu-Spa div ul li:hover{
+    color: #FFFF00;
+}
+
+#navegador ul{
+    padding-left: 70px;
+}
+
+#navegador ul li{
+    padding-right: 30px;
+}
+
+#cuenta-lenguaje{
+    font-size: 14px;
+    float: right;
+}
+
+#cuenta-lenguaje ul li {
+    display: inline-flex;
+    align-content: center;
+    padding: 5px;
+
+}
+
+#lenguaje {
+    padding-right: 10px;
+}
+
+/************** MAIN **************/
+
+/* Banner */
+
+#banner{
+    height: 700px;
+    background-image: url(../img/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#texto-banner{
+    padding-left: 220px;
+    padding-top: 160px;
+}
+
+#texto-banner h1{
+    margin: 0px;
+    font-family: 'Romanesco';
+    font-size: 96px;
+    font-weight: 400;
+}
+
+#texto-banner p{
+    margin: 0px;
+    padding-top: 30px;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* Reserva tu cita y Código promocional */
+
+#reserva-promocion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #F2F6F6;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#reserva-promocion div input{
+    height: 50px;
+    padding: 1px 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+#reserva-tu-cita {
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+#codigo-promocional {
+    width: 150px;
+    margin-left: 10px;
+}
+
+#codigo-promocional::placeholder {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color:  #9E9A9A;
+}
+
+/* Servicios */
+
+#servicios {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-between;
+}
+
+#servicios h1 {
+    background: #A3A656;
+    margin: 0px;
+    padding: 20px 0px;
+    border-radius: 15px 15px 0px 0px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#servicios article p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.precio-reservar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.precio {
+    padding-left: 15px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.precio-reservar button {
+    float: right;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #A3A656;
+    border-style: none;
+    border-radius: 35px;
+    padding: 10px 30px;
+}
+
+.precio-reservar button:hover {
+    color: #384001;
+}
+
+/* Planes */
+
+#planes {
+    height: 770px;
+    background:#F2F6F6;
+}
+
+#planes h1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 75px 0px;
+    margin: 0px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 32px;
+}
+
+#contenedor-planes {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 170px;
+}
+
+#contenedor-planes article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedor-planes article h2 {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    margin: 0px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 32px;
+}
+
+#contenedor-planes article button {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 25px 0px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #A3A656;
+    border-style: none;
+    border-radius: 35px;
+    padding: 20px 95px;
+}
+
+#contenedor-planes article button:hover {
+    color: #384001;
+}
+
+.lista-beneficios {
+    display: flex;
+    justify-content: center;
+}
+
+.lista-beneficios ul li {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    padding: 5px 0px;
+}
+
+.imagen-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid #384001;
+    border-radius: 50%;
+    background: #FFFFFF;
+    width: 255px;
+    height: 255px;
+}
+
+.imagen-plan img {
+    width: 50%;
+    height: 50%;
+}
+
+/************** FOOTER **************/
+
+#pie-de-pagina{
+    background: #384001;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#pie-de-pagina div {
+    display: inline-flex;
+    height: 97px;
+}
+
+#pie-de-pagina div ul{
+    display: flex;
+    height: 95px;
+    list-style-type: none;
+    align-items: center;
+    margin: 0px 0px;
+}
+
+#pie-de-pagina div ul li a{
+    text-decoration: none;
+    color: #A3A656;
+}
+
+#pie-de-pagina div ul li a:hover{
+    color: #FFFF00;
+}
+
+#informacion-negocio ul{
+    padding-left: 70px;
+}
+
+#informacion-negocio ul li{
+    padding: 0px 50px;
+}
+
+#redes-sociales{
+    float: right;
+    padding-right: 30px;
+}
+
+#redes-sociales ul{
+    padding: 0px;
+}
+
+#redes-sociales ul li {
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+}
